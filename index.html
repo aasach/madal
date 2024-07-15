@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: cursive;  
+    background-color:#FFF2D7;
+    
+}
+
+header {
+    background-color: #FF7D29;	
+    color: black;	
+    padding: 5px 20px;
+   
+}
+
+.header-container {
+	position: relative;
+    display: flex;
+	align-items: center; 
+    justify-content: center;
+    padding:10px 0;
+	color:white;
+}
+	
+.logo {
+	position: absolute;
+	left:10px;
+    width: 50px;
+    height: 50px;   
+	border-radius: 50px;
+	
+	
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.photo-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+
+	
+}
+
+p {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF7D29;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+</style>
+
+<body>
+    <header>
+        <div class="header-container">
+		<a href="index.html" class="logo">
+            <img src="logo.jpg" alt="Logo" class="logo"></a>
+            <h1>MADAL</h1>
+        </div>
+    </header>
+    <main>
+        <div class="photo-section">
+            <img src="madal.jpg" alt="Madal" class="photo">
+            <div class="description">
+			<audio controls autoplay muted>
+			<source src="Madal_audio.mp3" type="audio/mp3">
+			</audio>
+                <h1>Madal</h1>
+                <p> Madal is a typical Nepali percussion instrument and is considered to be the backbone of most Nepali folk music. 
+						It is an integral part of festivals across communities in Nepal. <br><br>
+						Typically, a wooden log is carved to form a hollow cavity, called Ghar. 
+						The heads of the drum are made of double-layered goat skins, and a black paste made of flour, iron filings, and egg is burned into a circular area in the center of each head. 
+						This circle, known as Khari, adds weight to the head and significantly alters the sound of the drum, giving it a bell-like quality. 
+						The two heads are slightly different in diameter. 
+						The smaller one is called Bhale and the larger one is called Pothi.<br><br>
+						A madal has a strap that goes around the waist of the person playing it.
+						The heads vibrate to produce sound when struck.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2024 Nepali Traditional Musical Instruments</p>
+    </footer>
+</body>
+</html>
